@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import OftadehRoutes from "./components/OftadehRoutes/OftadehRoutes";
+import OCARoutes from "./components/OCARoutes/OCARoutes";
 import { ThemeProvider } from "@material-ui/core/styles";
-import getTheme from "./oftadeh-configs/themeConfig";
+import getTheme from "./OCA-configs/themeConfig";
 import ThemeContext from "./context/ThemeContext";
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
     <ThemeContext.Provider value={{ setThemeName, curThemeName }}>
       <ThemeProvider theme={theme}>
         <div className="App">
-          <OftadehRoutes />
+          <OCARoutes />
         </div>
       </ThemeProvider>
     </ThemeContext.Provider>

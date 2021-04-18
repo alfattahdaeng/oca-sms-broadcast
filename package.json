@@ -1,5 +1,5 @@
 {
-  "name": "oftadeh-react-admin",
+  "name": "sms-broadcast-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "chart.js": "^2.9.3",
     "clsx": "^1.1.0",
     "draft-js": "^0.11.5",
+    "fg-loadcss": "^3.1.0",
     "jodit-react": "^1.0.42",
     "material-design-icons": "^3.0.1",
     "material-table": "^1.57.2",

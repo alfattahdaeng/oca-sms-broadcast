@@ -3,7 +3,7 @@ import LoginPage from "./LoginPage";
 export const LoginPageConfig = {
   routes: [
     {
-      path: "/pages/auth/login",
+      path: "/auth/login",
       exact: true,
       component: LoginPage
     }
