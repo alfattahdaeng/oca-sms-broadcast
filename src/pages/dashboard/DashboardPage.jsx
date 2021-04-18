@@ -143,7 +143,7 @@ const DashboardPage = (props) => {
                 Hello, Welcome to OCA!
               </Typography>
               <Typography className={classes.captionWelcome} variant="subtitle2">
-                Let’s start make some noise and make your campaign great again! <NavLink to="/pages/sms" style={{ textDecoration: 'none', color: '#ED1260' }} >click here</NavLink > to spread your messages.
+                Let’s start make some noise and make your campaign great again! <NavLink to="/sms/scheduler" style={{ textDecoration: 'none', color: '#ED1260' }} >click here</NavLink > to spread your messages.
               </Typography>
             </Paper>
           </Grid>

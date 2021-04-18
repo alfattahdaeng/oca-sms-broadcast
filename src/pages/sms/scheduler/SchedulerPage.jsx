@@ -237,6 +237,9 @@ const useStyles = makeStyles(theme => ({
     '&:hover':{
       backgroundColor: '#d40546',
     },  
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: '0',
+    },
   },
   icon: {
     borderRadius: '50%',
@@ -296,6 +299,14 @@ const useStyles = makeStyles(theme => ({
   },
   Ic:{
     position: 'relative',
+  },
+  buttonWrap:{
+    width: '730px',
+    display: 'block',
+    textAlign: 'right',
+    [theme.breakpoints.down("sm")]: {
+      width: '100%',
+    },
   }
 }));
  
@@ -531,13 +542,14 @@ const SchedulerPage = props => {
                                     </NativeSelect>
                           </div>
                       </div>
-                    
                     </RadioGroup>
-                    <Button variant="contained" className={classes.buttonRight}>
-                      Send messages
-                    </Button>
                   </Grid>
                 </Grid>
+                <div className={classes.buttonWrap}>
+                  <Button variant="contained" className={classes.buttonRight}>
+                    Send messages
+                  </Button>
+                </div>
               </form>
             </div>
             </Grid>
