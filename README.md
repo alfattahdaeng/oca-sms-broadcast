@@ -24,6 +24,7 @@ There's three pages of this template
 
 **3. SMS Scheduller (/sms/scheduler)**
 <br />
+
 ![SMS](screenshot/sms.png)
 
 <br />
@@ -31,11 +32,15 @@ There's three pages of this template
 ## Installation
 
 **A.Installing Prerequisites**
+<br />
+
 Download and install at least LTS or the latest version of [Node.js](https://nodejs.org/) from its web site. 
 
 <br />
 
 **B.Clone SMS Broadcast Template**
+<br />
+
 Open your favorite console application (Terminal, Command Prompt etc.), navigate into your work folder, run the following command and wait for it to finish:
 
 <br />
@@ -62,7 +67,7 @@ or
 ```
 
 <br />
-You can check out your console application to get further information about the server. By default, it will run on [http://localhost:3000](http://localhost:3000) but it might change depending on your setup
+You can check out your console application to get further information about the server. By default, it will run on (http://localhost:3000) but it might change depending on your setup
 
 ## Sources and Credits
 
