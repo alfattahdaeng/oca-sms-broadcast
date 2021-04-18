@@ -4,7 +4,7 @@ Written entirely with Javascript (reactjs & material-ui).
 
 <br />
 
-Live demo: https://smsbroadcast-alfattah.netlify.com/.
+Live demo: https://smsbroadcast-alfattah.netlify.app/
 
 <br />
 
