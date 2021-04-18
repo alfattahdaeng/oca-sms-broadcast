@@ -4,39 +4,47 @@ Written entirely with Javascript (reactjs & material-ui).
 
 <br />
 
-Live demo: https://smsbroadcast-alfattah.netlify.com/).
+Live demo: https://smsbroadcast-alfattah.netlify.com/.
 
+<br />
 
 There's three pages of this template
 
-**1. Login (http://localhost:3000/auth/login)**
-![Login Page](screenshot/login.png)
+**1. Login (/auth/login)**
+<br />
 
-**2. Dashboard (http://localhost:3000/dashboard)**
-![Login Page](screenshot/home.png)
+![Login](screenshot/login.png)
+<br />
 
-**3. SMS Scheduller (http://localhost:3000/sms/scheduler)**
-![Login Page](screenshot/sms.png)
+**2. Home (/dashboard)**
+<br />
+
+![Home](screenshot/home.png)
+<br />
+
+**3. SMS Scheduller (/sms/scheduler)**
+<br />
+![SMS](screenshot/sms.png)
 
 <br />
 
 ## Installation
 
 **A.Installing Prerequisites**
+Download and install at least LTS or the latest version of [Node.js](https://nodejs.org/) from its web site. 
+
 <br />
-Download and install at least LTS or the latest version of [Node.js](https://nodejs.org/) from its web site.
 
 **B.Clone SMS Broadcast Template**
-
-<br />
 Open your favorite console application (Terminal, Command Prompt etc.), navigate into your work folder, run the following command and wait for it to finish:
+
 <br />
 
 **Using Yarn**
 
 ```sh
- git clone https://github.com/alfattahdaeng/oca-sms-broadcast-template.git
- cd pokedexAppReactJS
+ git clone https://github.com/alfattahdaeng/oca-sms-broadcast.git
+ cd oca-sms-broadcast
  yarn install
  yarn start
 ```
@@ -47,13 +55,11 @@ or
 
 
 ```sh
- git clone https://github.com/alfattahdaeng/oca-sms-broadcast-template.git
- cd pokedexAppReactJS
+ git clone https://github.com/alfattahdaeng/oca-sms-broadcast.git
+ cd oca-sms-broadcast
  npm install
  npm start
 ```
-
-or
 
 <br />
 You can check out your console application to get further information about the server. By default, it will run on [http://localhost:3000](http://localhost:3000) but it might change depending on your setup
